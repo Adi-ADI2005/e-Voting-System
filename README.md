@@ -57,6 +57,8 @@ An **AI-powered E-Voting System** built using **Flask**, **MySQL**, **OpenCV**, 
 Stores voter credentials and details.
 
 ```sql
+Database Table for user who sign up
+
 CREATE TABLE users (
     id INT AUTO_INCREMENT UNIQUE,
     username VARCHAR(50) PRIMARY KEY,
@@ -66,3 +68,20 @@ CREATE TABLE users (
     gender VARCHAR(10) NOT NULL,
     user_type ENUM('voter','candidate','admin') NOT NULL
 );
+
+
+Database Table for Candidate Registration
+CREATE TABLE candidate_reg (
+    id VARCHAR(100) PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    dob DATE NOT NULL,
+    age INT NOT NULL,
+    gender VARCHAR(15) NOT NULL,
+    mobile VARCHAR(15) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    branch VARCHAR(100),
+    parti_name VARCHAR(100) NOT NULL,
+    candidate_type VARCHAR(100) NOT NULL,
+    party_logo VARCHAR(255)
+);
+
