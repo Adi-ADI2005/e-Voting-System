@@ -2,16 +2,16 @@
 
 This is an **AI powered e-voting system** built using:
 
--   **HTML, CSS, Bootstrap** -- Frontend\
--   **Python Flask** -- Backend\
--   **OpenCV** -- Face Verification\
+-   **HTML, CSS, Bootstrap** -- Frontend
+-   **Python Flask** -- Backend
+-   **OpenCV** -- Face Verification
 -   **MySQL** -- Store all voting-related data
 
 The system is fully **responsive** (mobile + desktop) and includes 3
 types of users:
 
--   **Voter** -- Cast the vote\
--   **Candidate** -- Do nomination\
+-   **Voter** -- Cast the vote
+-   **Candidate** -- Do nomination
 -   **Admin** -- Manage voting system
 
 ------------------------------------------------------------------------
@@ -46,9 +46,9 @@ CREATE TABLE users (
 
 **![signin.png](signin.png)**
 
-✅ Username Rules\
-- Voter: **Alphanumeric**\
-- Candidate: **Alphabetic**\
+✅ Username Rules
+- Voter: **Alphanumeric**
+- Candidate: **Alphabetic**
 - Admin: **Numeric**
 
 ------------------------------------------------------------------------
@@ -106,7 +106,6 @@ After photo upload, the button becomes enabled.
 
 ## 📸 Face Verification (OpenCV)
 
-**(Add screenshot: `face_verification.png`)**
 ![faceverifiction.png](faceverifiction.png)
 Face scan matches the user's photo stored in the database.\
 If matched → **Next button appears**
@@ -134,7 +133,7 @@ CREATE TABLE vote_cast (
 
 ## 🛠️ Admin Dashboard
 
-**(Add screenshot: `admin_dashboard.png`)**
+
 ![admindashboard.png](admindashbord.png)
 Admin can: - Update user details\
 - Delete nomination\
