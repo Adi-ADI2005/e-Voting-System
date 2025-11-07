@@ -44,7 +44,7 @@ CREATE TABLE users (
 
 ## 🔐 Signin Page
 
-**![signin.png](signup.in)**
+**![signin.png](signin.png)**
 
 ✅ Username Rules\
 - Voter: **Alphanumeric**\
@@ -135,7 +135,7 @@ CREATE TABLE vote_cast (
 ## 🛠️ Admin Dashboard
 
 **(Add screenshot: `admin_dashboard.png`)**
-![admindashboard.png](admindashboard.png)
+![admindashboard.png](admindashbordś.png)
 Admin can: - Update user details\
 - Delete nomination\
 - View results
