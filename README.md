@@ -96,7 +96,7 @@ Voter must upload a photo to enable the **Vote Cast** button.
 ### Upload Photo
 
 
-![img upload.png](imgupload.png)
+![imgupload.png](imgupload.png)
 After photo upload, the button becomes enabled.
 
 ### Ready to Vote
