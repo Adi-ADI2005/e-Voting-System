@@ -148,6 +148,60 @@ Admin can: - Update user details\
 
 ![result.png](result.png)
 See which candidate won and total votes.
+------------------------------------------------------------------------
+## 📁 Project Folder Structure — AI Powered E-Voting System
+
+e-voting-system/
+│
+├── app.py                         # Main Flask application
+│
+├── templates/                     # All HTML templates
+│   ├── home.html
+│   ├── signup.html
+│   ├── signin.html
+│   ├── u_home.html                # Voter home
+│   ├── upload.html                # Voter photo upload
+│   ├── faceverification.html      # OpenCV face scan page
+│   ├── votecast.html              # Vote cast page
+│   ├── chome.html                 # Candidate home
+│   ├── creg.html                  # Candidate nomination
+│   ├── adminhome.html             # Admin dashboard
+│   ├── update.html                # Admin update user/candidate
+│   ├── result.html                # Election results
+│
+├── static/                        # Frontend static files
+│   ├── css/                       # Stylesheets
+│   │   ├── style.css
+│   │   └── ...
+│   ├── js/                        # JavaScript files
+│   │   ├── script.js
+│   │   └── ...
+│   ├── assets/                    # Background images / icons
+│   │   ├── bg1.jpg
+│   │   ├── bg2.png
+│   │   └── ...
+│   │
+│   └── upload/                    # ✅ Upload folder inside static
+│       ├── party_logo/            # Candidate party logo uploads
+│       │   ├── logo1.png
+│       │   └── ...
+│       └── face_upload/           # Voter face upload images
+│           ├── 10001.jpg
+│           └── ...
+│
+├── requirements.txt               # Python dependencies
+├── README.md                      # Documentation
+└── .gitignore                     # Git ignored files
+## 📂 Folder Structure
+
+The entire project is organized as follows:
+
+
+✅ `upload` folder is inside **static/**  
+✅ `party_logo` and `face_upload` kept separate  
+✅ All HTML pages stay in **templates/**  
+✅ app.py is the main backend file  
+
 
 ------------------------------------------------------------------------
 
