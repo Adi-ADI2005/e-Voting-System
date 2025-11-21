@@ -18,7 +18,7 @@ types of users:
 
 ## 🏠 Home Page
 
-**![Home Page](home.png)
+**![Home Page](/docs/home.png)
 **
 
 AI powered e-voting home interface.
@@ -26,7 +26,7 @@ AI powered e-voting home interface.
 ------------------------------------------------------------------------
 
 ## 📝 Signup Page
-![signup.png](signup.png)
+![signup.png](/docs/signup.png)
 SQL used for user registration:
 
 ``` sql
@@ -44,7 +44,7 @@ CREATE TABLE users (
 
 ## 🔐 Signin Page
 
-**![signin.png](signin.png)**
+**![signin.png](/docs/signin.png)**
 
 ✅ Username Rules
 - Voter: **Alphanumeric**
@@ -58,13 +58,13 @@ CREATE TABLE users (
 ### Candidate Home
 
 
-![chome.png](chome.png)
+![chome.png](/docs/chome.png)
 Candidate can see how many votes he/she received.
 
 ### Candidate Nomination
 
 **(Add screenshot: `candidate_reg.png`)**
-![creg.png](creg.png)
+![creg.png](/docs/creg.png)
 SQL for candidate nomination:
 
 ``` sql
@@ -90,23 +90,23 @@ CREATE TABLE candidate_reg (
 ### Voter Home
 
 
-![uhomeb.png](uhomeb.png)
+![uhomeb.png](/docs/uhomeb.png)
 Voter must upload a photo to enable the **Vote Cast** button.
 
 ### Upload Photo
 
-![upload.png](upload.png)
+![upload.png](/docs/upload.png)
 imguplod.png
 After photo upload, the button becomes enabled.
 
 ### Ready to Vote
-![uhomea.png](uhomea.png)
+![uhomea.png](/docs/uhomea.png)
 
 ------------------------------------------------------------------------
 
 ## 📸 Face Verification (OpenCV)
 
-![faceverifiction.png](faceverifiction.png)
+![faceverifiction.png](/docs/faceverifiction.png)
 Face scan matches the user's photo stored in the database.\
 If matched → **Next button appears**
 
@@ -114,7 +114,7 @@ If matched → **Next button appears**
 
 ## ✅ Vote Cast Page
 
-![vote_cast.png](vote_cast.png)
+![vote_cast.png](/docs/vote_cast.png)
 
 SQL for storing votes:
 
@@ -134,7 +134,7 @@ CREATE TABLE vote_cast (
 ## 🛠️ Admin Dashboard
 
 
-![admindashboard.png](admindashbord.png)
+![admindashboard.png](/docs/admindashbord.png)
 Admin can: - Update user details\
 - Delete nomination\
 - View results
@@ -142,7 +142,7 @@ Admin can: - Update user details\
 ### Update Page
 
 
-![update.png](update.png)
+![update.png](/docs/update.png)
 ### Results Page
 
 ![result.png](result.png)
